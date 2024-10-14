@@ -1,0 +1,9 @@
+curl -X POST http://localhost:8080/api/stores \
+-H "Content-Type: application/json" \
+-d '{
+    "name": "Main Store",
+    "storeDetail": {
+        "location": "123 Main St",
+        "ownerName": "John Doe"
+    }
+}'
